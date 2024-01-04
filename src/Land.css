@@ -1,0 +1,45 @@
+.landing-page-light {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.landing-page-light .desktop-wrapper {
+  background: linear-gradient(180deg, rgb(231.62, 231.14, 255) 0%, rgb(67.31, 57.08, 108.25) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  height: 848px;
+  position: fixed;
+  width: 1548px;
+}
+
+.landing-page-light .desktop {
+  object-fit: cover;
+  position: absolute;
+  width: 1548px;
+}
+.landing-page-light .box {
+  height: 380px;
+  width: 1540px;
+}
+
+.landing-page-light .box .rectangle {
+  -webkit-backdrop-filter: blur(20px) brightness(40%);
+  backdrop-filter: blur(20px) brightness(40%);
+  background: linear-gradient(
+    180deg,
+    rgba(225, 229, 239, 0) 0%,
+    rgb(225, 229, 239) 38.85%,
+    rgb(150.17, 160.42, 191.16) 100%
+  );
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(111, 218, 11, 0.5), rgba(5, 219, 16, 0)) 1;
+  border-radius: 30px;
+  height: 380px;
+  left: 0;
+  position: fixed;
+  bottom: 0;
+  width: 1540px;
+}
